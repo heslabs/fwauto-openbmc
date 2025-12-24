@@ -803,7 +803,19 @@ creation phase:
 ```
 
 
+```
+💬 **Build Progress Update #23:**
 
+- **Current task:** 5513 of 6007 (approximately **91.8% complete**)
+- **Status:** Building Rust/Cargo toolchain
+- **Recent completions:**
+  - rust-native installation and SPDX
+- **Currently building:**
+  - **cargo-native-1.85.1** (Rust package manager - compiling)
+
+The build is now compiling cargo (Rust's package manager). This indicates there are Rust components in OpenBMC that need to be built. 
+Let me continue monitoring:
+```
 
 
 
