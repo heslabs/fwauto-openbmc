@@ -428,6 +428,7 @@ Would you like me to:
 
 ---
 
+
 ```
 You> Continue monitoring the build progress periodically?
 💬 I'll monitor the OpenBMC build progress periodically for you.
@@ -441,6 +442,9 @@ You> Continue monitoring the build progress periodically?
   - glib-2.0-native (currently installing)
 
 The build is progressing steadily. Let me check again in a moment to see further progress.
+```
+
+```
 💬 **Build Progress Update #2:**
 
 - **Current task:** 3833 of 6007 (approximately **64% complete**)
@@ -456,6 +460,52 @@ The build is progressing steadily. Let me check again in a moment to see further
   - systemd-systemctl-native (systemd control)
 
 Progress is steady. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #3:**
+
+- **Current task:** 3873 of 6007 (approximately **64.5% complete**)
+- **Status:** Building core system libraries
+- **Important milestone:** `obmc-phosphor-image-1.0-r0` has started preparing (this is the final image target!)
+- **Recent completions:**
+  - btrfs-tools-native
+  - parted-native (partition editor)
+- **Currently building:**
+  - **glibc-2.41** (GNU C Library - this is a major component that takes time)
+  - libarchive-native
+
+The build is now compiling glibc, which is a critical and time-consuming component. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #4:**
+
+- **Current task:** 4053 of 6007 (approximately **67.5% complete**)
+- **Status:** Creating SPDX metadata and building security libraries
+- **Major milestone:** `obmc-phosphor-image` SPDX creation completed!
+- **Recent completions:**
+  - Multiple phosphor configuration packages (fan control, IPMI, inventory)
+  - SPDX metadata generation for various packages
+- **Currently building:**
+  - gnutls-native (TLS/SSL library)
+
+The build is progressing well through the final stages. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #5:**
+
+- **Current task:** 4070 of 6007 (approximately **67.8% complete**)
+- **Status:** Building Python dependencies and kernel configuration
+- **Recent completions:**
+  - gnutls-native (TLS library)
+  - python3-cython-native (Python C extension compiler)
+  - linux-yocto kernel configuration
+- **Currently building:**
+  - python3-pyyaml-native (YAML parser for Python)
+
+Good progress! The kernel configuration is done. Let me continue monitoring:
 ```
 
  
