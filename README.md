@@ -5,7 +5,7 @@
 ### FWAuto
 
 Please use English for the conversation
-Please read the ./openbmc_readme.md and excute the tasks in host PC
+Please read the ```./openbmc_readme.md``` and excute the tasks in host PC
 
 ---
 ### Host PC
