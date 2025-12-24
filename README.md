@@ -139,7 +139,8 @@ popd > /dev/null
 popd > /dev/null
 ```
 
-#### 💬💬💬 FWAuto
+---
+### 💬💬💬 FWAuto
 
 ```
 💬 I'll create the `apply_patch.sh` script on the Host PC.
@@ -166,7 +167,8 @@ chmod +x ./apply_patch.sh
 ./apply_patch.sh
 ```
 
-#### 💬💬💬 FWAuto
+---
+### 💬💬💬 FWAuto
 
 You> Run the script in host PC:
 ```
@@ -208,7 +210,8 @@ cd ~/openbmc/host/container-scripts
 ./container.sh build
 ```
 
-#### 💬💬💬 FWAuto 
+---
+### 💬💬💬 FWAuto 
 
 You> Build RDv3 R1 host Docker image in host PC
  
@@ -251,7 +254,8 @@ docker run --rm \
   bash -c "./build-scripts/rdinfra/build-test-busybox.sh -p rdv3r1 all"
 ```
 
-#### 💬💬💬 FWAuto
+---
+### 💬💬💬 FWAuto
 ```
 You> Run the docker in host PC
  
@@ -340,7 +344,8 @@ You>
 ls -la ~/openbmc/host/output/rdv3r1/rdv3r1/
 ```
 
-#### 💬💬💬 FWAuto
+---
+### 💬💬💬 FWAuto
 
 ```
 💬 I'll verify the build artifacts on the Host PC.
@@ -384,7 +389,8 @@ bitbake obmc-phosphor-image
 ```
 
 
-#### 💬💬💬 FWAuto
+---
+### 💬💬💬 FWAuto
 
 You> Build the OpenBMC image in host PC
  
