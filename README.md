@@ -591,7 +591,216 @@ Excellent progress! The kernel is fully built. Now the build will continue with 
 The build is now at about 72% and building various application libraries. Let me continue monitoring:
 ```
 
+```
+💬 **Build Progress Update #11:**
 
+- **Current task:** 4360 of 6007 (approximately **72.6% complete**)
+- **Status:** Building security and system libraries
+- **Recent completions:**
+  - libcap-ng (capabilities library)
+  - base-passwd
+  - bash-completion
+  - libffi (foreign function interface)
+- **Currently building:**
+  - gdbm (database library)
+  - libpcre2 (regex library)
+  - libnsl2 (network services library)
+  - zstd (compression library)
+  - libseccomp (secure computing mode library)
+  - libpam (authentication library)
+
+The build continues steadily. Let me keep monitoring:
+```
+
+
+```
+💬 **Build Progress Update #12:**
+
+- **Current task:** 4500 of 6007 (approximately **74.9% complete**)
+- **Status:** Building system utilities and security libraries
+- **Recent completions:**
+  - shadow (user/password management)
+  - kmod (kernel module tools)
+  - libyaml (YAML parser)
+- **Currently building:**
+  - libdaemon (daemon library)
+  - attr (extended attributes)
+  - cracklib (password checking)
+
+Good progress - now at 75%! Let me continue monitoring:
+```
+
+
+```
+💬 **Build Progress Update #13:**
+
+- **Current task:** 4626 of 6007 (approximately **77% complete**)
+- **Status:** Building core utilities and Python
+- **Recent completions:**
+  - libnl (netlink library)
+  - gmp (arbitrary precision math)
+  - libedit (line editing library)
+  - readline (command line editing)
+  - stdplus (OpenBMC utility library)
+- **Currently building:**
+  - **coreutils-9.7** (GNU core utilities)
+  - **python3-3.13.3** (configuring - this is a major component)
+
+Python3 configuration has started - this is another significant component. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #14:**
+
+- **Current task:** 4964 of 6007 (approximately **82.6% complete**)
+- **Status:** Packaging and compiling network services
+- **Recent completions:**
+  - Many package write and QA tasks (shadow, util-linux, run-postinsts)
+  - SPDX metadata for glib-2.0
+- **Currently building:**
+  - **openssh-10.0p1** (SSH server/client - compiling now)
+  - Various SPDX dependency collection tasks
+
+Great progress - now over 82%! The build is in the final stages, mostly packaging and building network services. Let me continue 
+monitoring:
+```
+
+```
+💬 **Build Progress Update #15:**
+
+- **Current task:** 5191 of 6007 (approximately **86.4% complete**)
+- **Status:** Finalizing packages and SPDX metadata
+- **Recent completions:**
+  - e2fsprogs (ext2/3/4 utilities)
+  - logrotate
+  - glib-2.0 packaging and metadata
+- **Currently building:**
+  - nbd (network block device) SPDX collection
+
+Excellent progress - now at 86.4%! The build is in the final stages, mostly doing packaging and SPDX metadata generation. Let me 
+continue monitoring:
+```
+
+
+```
+💬 **Build Progress Update #16:**
+
+- **Current task:** 5264 of 6007 (approximately **87.6% complete**)
+- **Status:** Building XML libraries and completing package metadata
+- **Recent completions:**
+  - libpam packaging and SPDX
+  - libpwquality
+  - **python3-3.13.3** package SPDX completed!
+  - libxml2 (XML parsing library)
+- **Currently building:**
+  - shared-mime-info (MIME type database)
+
+Almost 88% complete! The build is nearing completion. Let me continue monitoring:
+```
+
+
+```
+💬 **Build Progress Update #17:**
+
+- **Current task:** 5296 of 6007 (approximately **88.2% complete**)
+- **Status:** Building systemd and finalizing major packages
+- **Major milestone:** **systemd-1_257.5 is compiling!** (This is a critical system component)
+- **Recent completions:**
+  - glib-2.0 packaging
+  - shared-mime-info
+  - boost-1.88.0 packaging
+  - perl-5.40.2 packaging
+  - openssl-3.5.0 packaging
+  - i2c-tools
+- **Currently building:**
+  - **systemd** (system and service manager - compiling)
+
+Great progress - 88% complete! systemd is one of the final major components. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #18:**
+
+- **Current task:** 5339 of 6007 (approximately **88.9% complete**)
+- **Status:** Building OpenBMC-specific components and system services
+- **Note:** systemd packaging generated a warning about `/usr/sbin/init` (non-critical)
+- **Recent completions:**
+  - systemd packaging
+  - phosphor-systemd-policy
+  - ffdc (First Failure Data Capture)
+  - pciutils (PCI utilities)
+- **Currently building:**
+  - dbus (D-Bus message bus - configuring)
+  - obmc-console (OpenBMC console)
+  - sdeventplus (event loop library)
+  - mctp (MCTP protocol)
+  - jsnbd (JSON NBD)
+  - net-snmp (SNMP protocol)
+
+Almost 89% complete! The build is now focusing on OpenBMC-specific components. Let me continue monitoring:
+```
+
+
+```
+💬 **Build Progress Update #19:**
+
+- **Current task:** 5486 of 6007 (approximately **91.3% complete**)
+- **Status:** Creating kernel FIT image and finalizing packages
+- **Major milestone:** ✅ **Linux kernel deployment completed!**
+- **Recent completions:**
+  - obmc-console packaging
+  - **linux-yocto FIT image with initramfs assembled and deployed!**
+  - rsyslog (system logging)
+  - avahi-libnss-mdns compilation
+- **Currently building:**
+  - avahi-libnss-mdns installation
+
+Over 91% complete! The kernel is fully deployed. The build is in the final stages, mostly packaging and deployment tasks. Let me 
+continue monitoring:
+```
+
+```
+💬 **Build Progress Update #20:**
+
+- **Current task:** 5497 of 6007 (approximately **91.5% complete**)
+- **Status:** Finalizing network services
+- **Recent completions:**
+  - avahi-libnss-mdns (mDNS name resolution)
+  - avahi (zero-configuration networking)
+- **Currently building:**
+  - **net-snmp-5.9.4** (SNMP protocol - compiling now)
+
+Over 91.5% complete! The build is approaching the final stages. Let me continue monitoring:
+💬 The build appears to be showing the same output. net-snmp is still compiling. Let me check if there's newer output or if the build is
+stuck:
+```
+
+```
+💬 Good! The build has progressed:
+
+**Build Progress Update #21:**
+
+- **Current task:** 5498 of 6007 (approximately **91.5% complete**)
+- **Status:** Installing net-snmp
+- **Recent completions:**
+  - net-snmp-5.9.4 compilation
+- **Currently building:**
+  - net-snmp installation
+
+Let me continue monitoring to see the final stages:
+```
+
+```
+💬 **Build Progress Update #22:**
+
+- **Current task:** 5505 of 6007 (approximately **91.6% complete**)
+- **Status:** Finalizing net-snmp packaging
+- **Recent completions:**
+  - net-snmp installation, packaging, and metadata
+
+The build is progressing steadily through the final packaging stages. Let me continue monitoring to see when it reaches the image 
+creation phase:
+```
 
 
 
