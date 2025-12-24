@@ -817,6 +817,84 @@ The build is now compiling cargo (Rust's package manager). This indicates there 
 Let me continue monitoring:
 ```
 
+```
+ **Build Progress Update #24:**
+
+- **Current task:** 5531 of 6007 (approximately **92.1% complete**)
+- **Status:** Building Python-Rust integration tools
+- **Recent completions:**
+  - cargo-native packaging
+  - python3-setuptools-rust (Python+Rust integration)
+- **Currently building:**
+  - **python3-maturin-native-1.8.3** (Rust-Python binding builder - compiling)
+
+The build is progressing through Rust/Python integration tools. Almost at 92.2%! Let me continue monitoring for the final image creation
+stages:
+```
+
+```
+💬 **Build Progress Update #25:**
+
+- **Current task:** 5578 of 6007 (approximately **92.9% complete**)
+- **Status:** Building OpenBMC core components
+- **Recent completions:**
+  - sdbusplus (D-Bus C++ bindings for OpenBMC)
+- **Currently building:**
+  - **bmcweb-1.0** (OpenBMC web server - compiling!)
+  - **phosphor-dbus-interfaces** (OpenBMC D-Bus interfaces - compiling!)
+
+Excellent progress - 93%! These are core OpenBMC components. bmcweb is the OpenBMC REST API and web interface. Let me continue 
+monitoring:
+```
+
+```
+ **Build Progress Update #26:**
+
+- **Current task:** 5668 of 6007 (approximately **94.4% complete**)
+- **Status:** Building many OpenBMC management daemons
+- **Recent progress:** Multiple OpenBMC components are being configured and compiled in parallel:
+  - phosphor-state-manager (state management)
+  - phosphor-led-manager (LED management)
+  - phosphor-watchdog (watchdog timer)
+  - phosphor-user-manager (user management)
+  - phosphor-software-manager (software updates)
+  - telemetry (telemetry service)
+  - obmc-ikvm (KVM over IP)
+  - phosphor-fan (fan control)
+  - phosphor-health-monitor (health monitoring)
+  - phosphor-inventory-manager (inventory)
+  - phosphor-hwmon (hardware monitoring)
+  - phosphor-debug-collector (debug collection)
+  - phosphor-post-code-manager (POST code)
+  - srvcfg-manager (service configuration)
+
+Over 94% complete! The build is now compiling all the OpenBMC management services. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #27:**
+
+- **Current task:** 5892 of 6007 (approximately **98.1% complete**)
+- **Status:** Creating SPDX package metadata for OpenBMC components
+- **Recent completions:** Many phosphor component packages are completing their SPDX metadata:
+  - bmcweb
+  - pldm
+  - phosphor-certificate-manager
+  - phosphor-led components
+  - phosphor-user-manager
+  - phosphor-network
+  - phosphor-settings-manager
+  - phosphor-software-manager
+  - phosphor-health-monitor
+  - phosphor-debug-collector
+  - telemetry
+
+Over 98% complete! The build is in the final stages - mostly creating package metadata. The actual final image creation should begin 
+soon. Let me continue monitoring:
+```
+
+
+
 
 
 
