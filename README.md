@@ -386,9 +386,18 @@ bitbake obmc-phosphor-image
 
 #### 💬💬💬 FWAuto
 
+You> Build the OpenBMC image in host PC
+ 
+```
+cd ~/openbmc
+git clone https://github.com/openbmc/openbmc.git
+cd ~/openbmc/openbmc
+source setup fvp
+bitbake obmc-phosphor-image
+```
 
+```
+💬 I'll build the OpenBMC image on the Host PC.
+```
 
----
-### Clone the following gitlab in host PC
-https://gitlab.arm.com/server_management/PoCs/fvp-poc
-
+ 
