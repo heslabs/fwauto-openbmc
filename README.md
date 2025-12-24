@@ -893,6 +893,28 @@ Over 98% complete! The build is in the final stages - mostly creating package me
 soon. Let me continue monitoring:
 ```
 
+```
+💬 **Build Progress Update #28:**
+
+- **Current task:** 5972 of 6007 (approximately **99.4% complete**)
+- **Status:** Final packages completing
+- **Major milestone:** `obmc-phosphor-image` package SPDX completed!
+- **Recent completions:**
+  - phosphor-ipmi-net (IPMI network interface)
+  - smbios-mdr (SMBIOS data)
+
+Almost done - 99.4%! The `obmc-phosphor-image` SPDX has been created, which means the final image creation tasks are about to begin. Let
+me check for the final image creation:
+💬 The output is repeating. Let me check if there are any new developments or if the build is truly finishing:
+💬 Let me check the very latest output to see if image creation has started:
+💬 The build is at task 5972 of 6007. Let me wait a bit longer and check for the image creation tasks which should be tasks 5973-6007:
+💬 The output seems stuck at the same task. Let me check if the build process is still running or if it has completed/failed:
+Fatal error in message reader: Failed to decode JSON: JSON message exceeded maximum buffer size of 1048576 bytes...
+```
+
+
+
+
 
 
 
