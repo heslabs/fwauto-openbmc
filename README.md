@@ -525,4 +525,78 @@ Good progress! The kernel configuration is done. Let me continue monitoring:
 
 Great progress! The glibc compilation is done, which was one of the largest components. Let me continue monitoring:
 ```
+
+
+```
+💬 **Build Progress Update #7:**
+
+- **Current task:** 4114 of 6007 (approximately **68.5% complete**)
+- **Status:** Building core runtime libraries and kernel
+- **Major milestone:** Linux kernel (6.12.30) configuration completed!
+- **Recent completions:**
+  - glibc package QA and SPDX metadata
+  - libgcc packaging
+- **Currently building:**
+  - gcc-runtime-15.1.0 (GCC runtime libraries)
+  - linux-yocto kernel configuration check
+
+The build is progressing well. The kernel is being configured now. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #8:**
+
+- **Current task:** 4115 of 6007 (approximately **68.5% complete**)
+- **Status:** Kernel compilation started!
+- **Important:** Linux kernel (6.12.30) is now **compiling** - this is a major time-consuming task
+- **Warning (non-critical):** `CONFIG_MCTP_TRANSPORT_USB` not found in config (this is informational only)
+- **Recent completions:**
+  - Kernel configuration check
+  - libgcc packaging
+
+The Linux kernel compilation has started. This will take significant time. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #9:**
+
+- **Current task:** 4132 of 6007 (approximately **68.8% complete**)
+- **Status:** Kernel build completed!
+- **Major milestone:** ✅ **Linux kernel (6.12.30) compilation, packaging, and QA completed!**
+- **Recent completions:**
+  - Kernel compilation
+  - Kernel installation and packaging
+  - Kernel SPDX metadata generation
+
+Excellent progress! The kernel is fully built. Now the build will continue with application packages. Let me continue monitoring:
+```
+
+```
+💬 **Build Progress Update #10:**
+
+- **Current task:** 4308 of 6007 (approximately **71.7% complete**)
+- **Status:** Building application libraries and tools
+- **Recent completions:**
+  - systemd configuration packages
+  - libpldm (PLDM library)
+  - iniparser
+  - libtool-cross
+- **Currently building:**
+  - libxcrypt (password hashing library)
+  - ncurses (terminal UI library)
+  - bash-completion
+  - util-linux-libuuid
+  - sqlite3
+
+The build is now at about 72% and building various application libraries. Let me continue monitoring:
+```
+
+
+
+
+
+
+
+
+
  
