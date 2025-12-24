@@ -5,7 +5,7 @@
 ### FWAuto
 
 Please use English for the conversation
-Please read the ./openbmc_readme.md and excute the tasks
+Please read the ./openbmc_readme.md and excute the tasks in host PC
 
 ---
 ### Host PC
@@ -398,6 +398,24 @@ bitbake obmc-phosphor-image
 
 ```
 💬 I'll build the OpenBMC image on the Host PC.
+💬 The OpenBMC build has started in the background. This is a large build process that will take some time. Let me check the current 
+progress:
+💬 Good! The OpenBMC build is progressing well. It's currently at **task 3223 of 6007** (about 54% complete). The build is compiling 
+native tools and cross-compilation toolchains.
+
+**Current status:**
+- Building native tools: cpio, coreutils, cmake, gettext
+- Cross-compiler: gcc-cross-aarch64 completed
+- Now building: libgcc-initial
+
+This is a typical Yocto/BitBake build process that will take considerable time (potentially 1-2+ hours depending on the host machine 
+performance). The build is running in the background and will continue automatically.
+
+Would you like me to:
+1. Continue monitoring the build progress periodically?
+2. Wait for the build to complete?
+3. Check specific build artifacts or logs?
+
 ```
 
  
