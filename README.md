@@ -158,7 +158,7 @@ Ready to run the script when needed!
 ```
 
 ---
-### Run the pstvh script in host PC:
+### Run the patch script in host PC:
 
 ```
 cd ~/openbmc
