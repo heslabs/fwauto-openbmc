@@ -74,7 +74,8 @@ echo /patch >> .git/info/sparse-checkout
 git pull origin main
 ```
 
-#### 💬💬💬 FWAuto 
+---
+### 💬💬💬 FWAuto 
 
 You> Apply required patches in host PC
 ```
