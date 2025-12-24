@@ -418,4 +418,36 @@ Would you like me to:
 
 ```
 
+---
+
+```
+You> Continue monitoring the build progress periodically?
+💬 I'll monitor the OpenBMC build progress periodically for you.
+💬 **Build Progress Update #1:**
+
+- **Current task:** 3784 of 6007 (approximately **63% complete**)
+- **Status:** Building native libraries
+- **Recent completions:**
+  - xmlto-native (documentation tool)
+  - gptfdisk-native (GPT partition tool)
+  - glib-2.0-native (currently installing)
+
+The build is progressing steadily. Let me check again in a moment to see further progress.
+💬 **Build Progress Update #2:**
+
+- **Current task:** 3833 of 6007 (approximately **64% complete**)
+- **Status:** Building filesystem and system tools
+- **Recent completions:**
+  - e2fsprogs-native (ext2/3/4 filesystem utilities)
+  - gobject-introspection-native (GObject introspection)
+- **Currently building:**
+  - btrfs-tools-native (Btrfs filesystem)
+  - libarchive-native (archive library)
+  - vim-native (text editor)
+  - syslinux-native (bootloader)
+  - systemd-systemctl-native (systemd control)
+
+Progress is steady. Let me continue monitoring:
+```
+
  
