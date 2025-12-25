@@ -3,6 +3,8 @@
 Reference: 
 * Simulate OpenBMC and UEFI pre-silicon on Neoverse RD-V3
   * https://learn.arm.com/learning-paths/servers-and-cloud-computing/openbmc-rdv3
+* OpenBMC on Arm Fixed Virtual Platform
+  * https://gitlab.arm.com/server_management/PoCs/fvp-poc
 
 ---
 ### FWAuto
