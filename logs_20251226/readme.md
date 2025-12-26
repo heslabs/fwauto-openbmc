@@ -1,5 +1,5 @@
 # OpenBMC FVP Execution Summary
-**Created by:** FWAuto
+**Tested by:** FWAuto
 **Date:** 2025-12-26
 **Remote Host:** 192.168.52.91
 **Status:** ✅ SUCCESS
