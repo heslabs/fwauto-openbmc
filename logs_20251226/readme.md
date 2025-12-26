@@ -1,5 +1,6 @@
 # 2025-12-26
 
+
 4. Setup local console windows (IMPORTANT - This allows you to see FVP consoles):
 
    a) Establish SSH tunnel in background:
