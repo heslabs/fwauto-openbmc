@@ -1,4 +1,3 @@
-# 2025-12-26
 # OpenBMC FVP Execution Summary
 
 **Date:** 2025-12-26
